@@ -1,9 +1,7 @@
-var x = prompt("Pon un numero");
+
 var n = '*';
-while (n<x){
+for (i = 0; i<=5;){
     console.log(n)
     n++;
+    i++;
 }
-console.log(n)
-console.log("n es " + n )
-console.log("x es " + x )
